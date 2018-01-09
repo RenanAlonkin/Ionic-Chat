@@ -37,7 +37,8 @@ export class ChatPage {
       //Mensagem Enviada Com Sucesso
     }).catch( () => {
       //Houve erro ao enviar a mensagem
-    })
+    });
+    this.message = '';
   }
 
   ionViewDidLoad() {
