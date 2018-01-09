@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Aplicação de Chat
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+      <ion-item>
+        <ion-label floating>Usuário</ion-label>
+        <ion-input type="text"[(ngModel)]="username"></ion-input>
+      </ion-item>
+    
+    <button ion-button block outline (click)="loginUser()">Entrar</button>
+
+  </ion-content>
